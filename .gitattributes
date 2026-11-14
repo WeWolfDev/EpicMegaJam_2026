@@ -1,0 +1,33 @@
+# Normalizacion de finales de linea para archivos de texto
+* text=auto
+
+# --- Unreal Engine (binarios, bloqueables) ---
+*.uasset filter=lfs diff=lfs merge=lfs -text lockable
+*.umap   filter=lfs diff=lfs merge=lfs -text lockable
+
+# --- Modelos 3D ---
+*.fbx    filter=lfs diff=lfs merge=lfs -text lockable
+*.obj    filter=lfs diff=lfs merge=lfs -text lockable
+*.glb    filter=lfs diff=lfs merge=lfs -text lockable
+*.gltf   filter=lfs diff=lfs merge=lfs -text
+*.blend  filter=lfs diff=lfs merge=lfs -text lockable
+
+# --- Imagenes y texturas ---
+*.png    filter=lfs diff=lfs merge=lfs -text
+*.jpg    filter=lfs diff=lfs merge=lfs -text
+*.jpeg   filter=lfs diff=lfs merge=lfs -text
+*.tga    filter=lfs diff=lfs merge=lfs -text
+*.psd    filter=lfs diff=lfs merge=lfs -text lockable
+*.exr    filter=lfs diff=lfs merge=lfs -text
+*.hdr    filter=lfs diff=lfs merge=lfs -text
+*.aseprite filter=lfs diff=lfs merge=lfs -text lockable
+
+# --- Audio y video ---
+*.wav    filter=lfs diff=lfs merge=lfs -text
+*.mp3    filter=lfs diff=lfs merge=lfs -text
+*.ogg    filter=lfs diff=lfs merge=lfs -text
+*.mp4    filter=lfs diff=lfs merge=lfs -text
+
+# --- Fuentes ---
+*.ttf    filter=lfs diff=lfs merge=lfs -text
+*.otf    filter=lfs diff=lfs merge=lfs -text
