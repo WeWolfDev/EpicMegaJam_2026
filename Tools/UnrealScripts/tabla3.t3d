@@ -1,0 +1,186 @@
+Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0"
+   EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.Actor'",MemberName="ReceiveTick")
+   bOverrideFunction=True
+   NodePosX=-900
+   NodePosY=0
+   NodeGuid=55EA65CB28F24207BF76BC34B1561C6F
+   CustomProperties Pin (PinId=D6474D5CD63147CBBD972891E1ED3615,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",LinkedTo=(K2Node_IfThenElse_11 18D526C56C0F412CB244FDA66C1B599B,),)
+   CustomProperties Pin (PinId=B6BC39180F1E4E10848D9FA50FF266A1,PinName="DeltaSeconds",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="double",)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_1"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.GameplayStatics'",MemberName="GetPlayerCharacter")
+   NodePosX=-900
+   NodePosY=200
+   NodeGuid=3A4A03F0AFE74493AC38FDB801954213
+   CustomProperties Pin (PinId=7B27AD6A625241CD860039F724AB9899,PinName="PlayerIndex",PinType.PinCategory="int",DefaultValue="0",)
+   CustomProperties Pin (PinId=9273540083CE4F50B63CC6494E4E36A5,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Character'",LinkedTo=(K2Node_CallFunction_2 8BC2F3306E3E492AAB5EDEF2983F8602,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_2"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.Actor'",MemberName="K2_GetActorLocation")
+   NodePosX=-700
+   NodePosY=200
+   NodeGuid=1A6022F982534B0C950754FFDBAAAE19
+   CustomProperties Pin (PinId=8BC2F3306E3E492AAB5EDEF2983F8602,PinName="self",PinType.PinCategory="object",PinType.PinSubCategoryObject="/Script/CoreUObject.Class'/Script/Engine.Actor'",LinkedTo=(K2Node_CallFunction_1 9273540083CE4F50B63CC6494E4E36A5,),)
+   CustomProperties Pin (PinId=25E9B8E3AE6E45E495E2997BB35BBFC6,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_7 CB991C21DD014824AC8931B1AFD7CD41,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_3"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.Actor'",MemberName="K2_GetActorLocation")
+   NodePosX=-700
+   NodePosY=350
+   NodeGuid=DDDDDBAD7283436F98C2ECDF92BCA47D
+   CustomProperties Pin (PinId=D8329BE26A2846A5BC7B412390EDF543,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_6 769CA298F36F4E76994B6898E02F2985,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_4"
+   VariableReference=(MemberName="ZonaOffset",bSelfContext=True)
+   NodePosX=-700
+   NodePosY=450
+   NodeGuid=2088250444454F98BB908FCA39A87FE1
+   CustomProperties Pin (PinId=C2F93745BC134E09B5A851383C9934F0,PinName="ZonaOffset",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_6 299FAE64C26247D5902C23D9F7B09AC4,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_5"
+   VariableReference=(MemberName="ZonaExtent",bSelfContext=True)
+   NodePosX=-500
+   NodePosY=450
+   NodeGuid=E8CB829A25DA4B78996423081E88E992
+   CustomProperties Pin (PinId=3505E42287DE4746824C91A3E53074C2,PinName="ZonaExtent",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_7 454E78A11C694F8CAD44BFE4325CA5C6,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_6"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",MemberName="Add_VectorVector")
+   NodePosX=-500
+   NodePosY=350
+   NodeGuid=F61165C2BF9E4A1CA8ACBD7AF498D9E1
+   CustomProperties Pin (PinId=769CA298F36F4E76994B6898E02F2985,PinName="A",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_3 D8329BE26A2846A5BC7B412390EDF543,),)
+   CustomProperties Pin (PinId=299FAE64C26247D5902C23D9F7B09AC4,PinName="B",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_VariableGet_4 C2F93745BC134E09B5A851383C9934F0,),)
+   CustomProperties Pin (PinId=51527B8ED4584C4095D181E08904D20F,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_7 D52B571133A7445499B4AEE3634F1AD5,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_7"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",MemberName="IsPointInBox")
+   NodePosX=-300
+   NodePosY=250
+   NodeGuid=CB33372290364DB8BB1A1CFB06DC3AD3
+   CustomProperties Pin (PinId=CB991C21DD014824AC8931B1AFD7CD41,PinName="Point",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_2 25E9B8E3AE6E45E495E2997BB35BBFC6,),)
+   CustomProperties Pin (PinId=D52B571133A7445499B4AEE3634F1AD5,PinName="BoxOrigin",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_CallFunction_6 51527B8ED4584C4095D181E08904D20F,),)
+   CustomProperties Pin (PinId=454E78A11C694F8CAD44BFE4325CA5C6,PinName="BoxExtent",PinType.PinCategory="struct",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/CoreUObject.Vector'",LinkedTo=(K2Node_VariableGet_5 3505E42287DE4746824C91A3E53074C2,),)
+   CustomProperties Pin (PinId=72F166A585E7479C873C420956D63448,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="bool",LinkedTo=(K2Node_CallFunction_10 6BD4701988414D42BD48886EBBC399F7,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_8"
+   VariableReference=(MemberName="Cayendo",bSelfContext=True)
+   NodePosX=-300
+   NodePosY=400
+   NodeGuid=0B99B5634D774492929086B79F8F02D1
+   CustomProperties Pin (PinId=AD67EE59C573458093B82B8D496A9847,PinName="Cayendo",Direction="EGPD_Output",PinType.PinCategory="bool",LinkedTo=(K2Node_CallFunction_9 FD987F0CA8214CC28535FC3F638E4D4F,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_9"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",MemberName="Not_PreBool")
+   NodePosX=-150
+   NodePosY=400
+   NodeGuid=92C4155CD33046ECB63737F8F2F8F651
+   CustomProperties Pin (PinId=FD987F0CA8214CC28535FC3F638E4D4F,PinName="A",PinType.PinCategory="bool",LinkedTo=(K2Node_VariableGet_8 AD67EE59C573458093B82B8D496A9847,),)
+   CustomProperties Pin (PinId=A9207C24AFF64E2DA2901201484C1BB6,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="bool",LinkedTo=(K2Node_CallFunction_10 E3C8DD84AEEF4AFF8D1AD24745BA23AB,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_10"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetMathLibrary'",MemberName="BooleanAND")
+   NodePosX=0
+   NodePosY=300
+   NodeGuid=212A3D2C60DD4EACBC7F5F66F04B8304
+   CustomProperties Pin (PinId=6BD4701988414D42BD48886EBBC399F7,PinName="A",PinType.PinCategory="bool",LinkedTo=(K2Node_CallFunction_7 72F166A585E7479C873C420956D63448,),)
+   CustomProperties Pin (PinId=E3C8DD84AEEF4AFF8D1AD24745BA23AB,PinName="B",PinType.PinCategory="bool",LinkedTo=(K2Node_CallFunction_9 A9207C24AFF64E2DA2901201484C1BB6,),)
+   CustomProperties Pin (PinId=466FEEDA89B04CCC8A71F350D7426E3D,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="bool",LinkedTo=(K2Node_IfThenElse_11 5F17B980FDC0441984C1BB8D5CF2508F,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_IfThenElse Name="K2Node_IfThenElse_11"
+   NodePosX=-500
+   NodePosY=0
+   NodeGuid=882AE16BEF9147FFBE5A6013F7ECD0E2
+   CustomProperties Pin (PinId=18D526C56C0F412CB244FDA66C1B599B,PinName="execute",PinType.PinCategory="exec",LinkedTo=(K2Node_Event_0 D6474D5CD63147CBBD972891E1ED3615,),)
+   CustomProperties Pin (PinId=5F17B980FDC0441984C1BB8D5CF2508F,PinName="Condition",PinType.PinCategory="bool",DefaultValue="true",LinkedTo=(K2Node_CallFunction_10 466FEEDA89B04CCC8A71F350D7426E3D,),)
+   CustomProperties Pin (PinId=298BF760A2304AFAA1D9F68A51FDFEC3,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",LinkedTo=(K2Node_VariableSet_12 E2AED4D106A0483988E9C99FED6BEBE9,),)
+   CustomProperties Pin (PinId=E1727A09AA994B258890095584147C92,PinName="else",Direction="EGPD_Output",PinType.PinCategory="exec",)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_VariableSet Name="K2Node_VariableSet_12"
+   VariableReference=(MemberName="Cayendo",bSelfContext=True)
+   NodePosX=-250
+   NodePosY=0
+   NodeGuid=E7888EB9A5E94701B2945449E6C7837F
+   CustomProperties Pin (PinId=E2AED4D106A0483988E9C99FED6BEBE9,PinName="execute",PinType.PinCategory="exec",LinkedTo=(K2Node_IfThenElse_11 298BF760A2304AFAA1D9F68A51FDFEC3,),)
+   CustomProperties Pin (PinId=D9EA9C37586745BCA8657FCB49B91375,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_14 2FD7D5362671472C841BA511314EE222,),)
+   CustomProperties Pin (PinId=5121AE41CA4B451C81737B79D615DDEE,PinName="Cayendo",PinType.PinCategory="bool",DefaultValue="true",)
+   CustomProperties Pin (PinId=E7EEC76CB42045648F0ABF845F5C1A6A,PinName="Output_Get",Direction="EGPD_Output",PinType.PinCategory="bool",)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_13"
+   VariableReference=(MemberName="Retraso",bSelfContext=True)
+   NodePosX=-50
+   NodePosY=200
+   NodeGuid=9F63E46E9B034C6EABD21737A83FE7CD
+   CustomProperties Pin (PinId=12336B3711A3483C962DF33DA8439615,PinName="Retraso",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="double",LinkedTo=(K2Node_CallFunction_14 79B31CE96D09468C83BB41ACB43683CA,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_14"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetSystemLibrary'",MemberName="Delay")
+   NodePosX=0
+   NodePosY=0
+   NodeGuid=6F066DF50F144B62877C2302875DAD1E
+   CustomProperties Pin (PinId=2FD7D5362671472C841BA511314EE222,PinName="execute",PinType.PinCategory="exec",LinkedTo=(K2Node_VariableSet_12 D9EA9C37586745BCA8657FCB49B91375,),)
+   CustomProperties Pin (PinId=9F7574247916469AA628E5C0FB981E92,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_15 4A841240D89A4C5E994CADAFB5683CA8,),)
+   CustomProperties Pin (PinId=79B31CE96D09468C83BB41ACB43683CA,PinName="Duration",PinType.PinCategory="real",PinType.PinSubCategory="double",DefaultValue="0.6",LinkedTo=(K2Node_VariableGet_13 12336B3711A3483C962DF33DA8439615,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_15"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.Actor'",MemberName="SetActorHiddenInGame",bSelfContext=True)
+   NodePosX=250
+   NodePosY=0
+   NodeGuid=9071D03CC0234D06909376E3A23325BA
+   CustomProperties Pin (PinId=4A841240D89A4C5E994CADAFB5683CA8,PinName="execute",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_14 9F7574247916469AA628E5C0FB981E92,),)
+   CustomProperties Pin (PinId=BFB9EDF85ECF4F18A75F39235B5A80D6,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_16 C1E66119B48142D0977382A81DC11A1C,),)
+   CustomProperties Pin (PinId=5AECBCA0CB7B40B8AC7F237365B12DE1,PinName="bNewHidden",PinType.PinCategory="bool",DefaultValue="true",)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_16"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.Actor'",MemberName="SetActorEnableCollision",bSelfContext=True)
+   NodePosX=500
+   NodePosY=0
+   NodeGuid=A0DFEB5D0CB64B3183058DC9EE2D2BE5
+   CustomProperties Pin (PinId=C1E66119B48142D0977382A81DC11A1C,PinName="execute",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_15 BFB9EDF85ECF4F18A75F39235B5A80D6,),)
+   CustomProperties Pin (PinId=5F3CA2917C854C8D93DA52E364FEF1DC,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_18 DBF8A281517C46EF9E6EE7BF3C0C05B2,),)
+   CustomProperties Pin (PinId=6F3E36B44A4C49D693ED18850377A7FF,PinName="bNewActorEnableCollision",PinType.PinCategory="bool",DefaultValue="false",)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_17"
+   VariableReference=(MemberName="Reaparece",bSelfContext=True)
+   NodePosX=700
+   NodePosY=200
+   NodeGuid=847FB51188854588AFF942F973D48E25
+   CustomProperties Pin (PinId=1E162E2107DF4947B2F839CCF7AED39E,PinName="Reaparece",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="double",LinkedTo=(K2Node_CallFunction_18 BBEA976C867A4C24AF02DAE69717FD5E,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_18"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.KismetSystemLibrary'",MemberName="Delay")
+   NodePosX=750
+   NodePosY=0
+   NodeGuid=B1FA627BCD4F4399BF14AD4487512AE5
+   CustomProperties Pin (PinId=DBF8A281517C46EF9E6EE7BF3C0C05B2,PinName="execute",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_16 5F3CA2917C854C8D93DA52E364FEF1DC,),)
+   CustomProperties Pin (PinId=5D8095B721D14C8AAB6BA21769DC9146,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_19 12AF5BBAF24245F5A811A7EA44206D1F,),)
+   CustomProperties Pin (PinId=BBEA976C867A4C24AF02DAE69717FD5E,PinName="Duration",PinType.PinCategory="real",PinType.PinSubCategory="double",DefaultValue="3.0",LinkedTo=(K2Node_VariableGet_17 1E162E2107DF4947B2F839CCF7AED39E,),)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_19"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.Actor'",MemberName="SetActorHiddenInGame",bSelfContext=True)
+   NodePosX=1000
+   NodePosY=0
+   NodeGuid=A1230184C15D4465B9AAE5DD22D95931
+   CustomProperties Pin (PinId=12AF5BBAF24245F5A811A7EA44206D1F,PinName="execute",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_18 5D8095B721D14C8AAB6BA21769DC9146,),)
+   CustomProperties Pin (PinId=EFDFBC42D25D407D8530F7FEED501DE9,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_20 2DDF5D7BE0FD47C3A3AEE0DFB432B6ED,),)
+   CustomProperties Pin (PinId=D72DDC2861B44F3CA4D212B36A325D58,PinName="bNewHidden",PinType.PinCategory="bool",DefaultValue="false",)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_20"
+   FunctionReference=(MemberParent="/Script/CoreUObject.Class'/Script/Engine.Actor'",MemberName="SetActorEnableCollision",bSelfContext=True)
+   NodePosX=1250
+   NodePosY=0
+   NodeGuid=8C4AC4E1F10F4283A0A297D90520B447
+   CustomProperties Pin (PinId=2DDF5D7BE0FD47C3A3AEE0DFB432B6ED,PinName="execute",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_19 EFDFBC42D25D407D8530F7FEED501DE9,),)
+   CustomProperties Pin (PinId=E5A0C6C27FE74E33B6A4F590918549DA,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",LinkedTo=(K2Node_VariableSet_21 ABF1ACF811FC4FE7B44B21F03DE21F23,),)
+   CustomProperties Pin (PinId=B177602936D244DAA286EB9B7EB98AEB,PinName="bNewActorEnableCollision",PinType.PinCategory="bool",DefaultValue="true",)
+End Object
+Begin Object Class=/Script/BlueprintGraph.K2Node_VariableSet Name="K2Node_VariableSet_21"
+   VariableReference=(MemberName="Cayendo",bSelfContext=True)
+   NodePosX=1500
+   NodePosY=0
+   NodeGuid=F6236D65C63B4805BC2C45059A8F0085
+   CustomProperties Pin (PinId=ABF1ACF811FC4FE7B44B21F03DE21F23,PinName="execute",PinType.PinCategory="exec",LinkedTo=(K2Node_CallFunction_20 E5A0C6C27FE74E33B6A4F590918549DA,),)
+   CustomProperties Pin (PinId=7AD4F89EE3024B33B905A092D72E75AA,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",)
+   CustomProperties Pin (PinId=D3122A234AD7403EB69E2DA17A734C57,PinName="Cayendo",PinType.PinCategory="bool",DefaultValue="false",)
+   CustomProperties Pin (PinId=681334779E7645E7ADE99C4E49A65167,PinName="Output_Get",Direction="EGPD_Output",PinType.PinCategory="bool",)
+End Object
