@@ -1,0 +1,936 @@
+{
+  "images": [
+    {
+      "index": 0,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch1\\Poster_4K.png",
+      "size": [
+        1187,
+        1219
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        15,
+        15,
+        1174,
+        1206
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Poster_4K",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Poster_4K.png"
+    },
+    {
+      "index": 1,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch1\\Poster_Hot.png",
+      "size": [
+        1227,
+        1251
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        15,
+        14,
+        1212,
+        1238
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Poster_Hot",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Poster_Hot.png"
+    },
+    {
+      "index": 2,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch1\\Poster_Menos80.png",
+      "size": [
+        1209,
+        924
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        27,
+        24,
+        1182,
+        894
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Poster_Menos80",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Poster_Menos80.png"
+    },
+    {
+      "index": 3,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch1\\Poster_New.png",
+      "size": [
+        1248,
+        846
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        24,
+        30,
+        1221,
+        819
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Poster_New",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Poster_New.png"
+    },
+    {
+      "index": 4,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch1\\Poster_Sale.png",
+      "size": [
+        1254,
+        1234
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        15,
+        15,
+        1241,
+        1221
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Poster_Sale",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Poster_Sale.png"
+    },
+    {
+      "index": 5,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch1\\Poster_Top.png",
+      "size": [
+        1443,
+        834
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        24,
+        24,
+        1413,
+        819
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Poster_Top",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Poster_Top.png"
+    },
+    {
+      "index": 6,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch1\\Poster_Vip.png",
+      "size": [
+        1077,
+        1232
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        15,
+        2,
+        1062,
+        1219
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Poster_Vip",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Poster_Vip.png"
+    },
+    {
+      "index": 7,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch1\\Poster_Ya.png",
+      "size": [
+        1227,
+        855
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        27,
+        30,
+        1203,
+        834
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Poster_Ya",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Poster_Ya.png"
+    },
+    {
+      "index": 8,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch1\\Valla_MegaOferta.png",
+      "size": [
+        887,
+        1774
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        9,
+        8,
+        877,
+        1767
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Valla_MegaOferta",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Valla_MegaOferta.png"
+    },
+    {
+      "index": 9,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch1\\Valla_RemakeUltraHD.png",
+      "size": [
+        1245,
+        1254
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        15,
+        12,
+        1231,
+        1243
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Valla_RemakeUltraHD",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Valla_RemakeUltraHD.png"
+    },
+    {
+      "index": 10,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch2\\Banda_PresentacionExclusiva.png",
+      "size": [
+        1600,
+        100
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        13,
+        13,
+        1588,
+        92
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Banda_PresentacionExclusiva",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Banda_PresentacionExclusiva.png"
+    },
+    {
+      "index": 11,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch2\\Cartel_AccesoVIP.png",
+      "size": [
+        900,
+        450
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        101,
+        10,
+        798,
+        440
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Cartel_AccesoVIP",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Cartel_AccesoVIP.png"
+    },
+    {
+      "index": 12,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch2\\Poster_Dlc.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        38,
+        10,
+        473,
+        502
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Poster_Dlc",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Poster_Dlc.png"
+    },
+    {
+      "index": 13,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch2\\Poster_MasXP.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        35,
+        10,
+        477,
+        502
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Poster_MasXP",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Poster_MasXP.png"
+    },
+    {
+      "index": 14,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch2\\Zona_0.png",
+      "size": [
+        1600,
+        400
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        10,
+        6,
+        1596,
+        390
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Zona_0",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Zona_0.png"
+    },
+    {
+      "index": 15,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch2\\Zona_1.png",
+      "size": [
+        1600,
+        400
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        10,
+        6,
+        1596,
+        390
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Zona_1",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Zona_1.png"
+    },
+    {
+      "index": 16,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch2\\Zona_2.png",
+      "size": [
+        1600,
+        400
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        10,
+        6,
+        1596,
+        390
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Zona_2",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Zona_2.png"
+    },
+    {
+      "index": 17,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch2\\Zona_3.png",
+      "size": [
+        1600,
+        400
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        10,
+        6,
+        1596,
+        390
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Zona_3",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Zona_3.png"
+    },
+    {
+      "index": 18,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch2\\Zona_4.png",
+      "size": [
+        1600,
+        400
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        10,
+        6,
+        1596,
+        390
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Zona_4",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Zona_4.png"
+    },
+    {
+      "index": 19,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch2\\Zona_5.png",
+      "size": [
+        1600,
+        400
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        10,
+        6,
+        1596,
+        390
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Zona_5",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Zona_5.png"
+    },
+    {
+      "index": 20,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch3\\Banda_Nuevo.png",
+      "size": [
+        1600,
+        400
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        22,
+        26,
+        1580,
+        382
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Banda_Nuevo",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Banda_Nuevo.png"
+    },
+    {
+      "index": 21,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch3\\Banderolas.png",
+      "size": [
+        1600,
+        200
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        0,
+        20,
+        1594,
+        200
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Banderolas",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Banderolas.png"
+    },
+    {
+      "index": 22,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch3\\Barrera_Precaucion.png",
+      "size": [
+        1600,
+        400
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        20,
+        26,
+        1590,
+        386
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Barrera_Precaucion",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Barrera_Precaucion.png"
+    },
+    {
+      "index": 23,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch3\\CajaComercial_Cara.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        15,
+        18,
+        625,
+        621
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "CajaComercial_Cara",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\CajaComercial_Cara.png"
+    },
+    {
+      "index": 24,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch3\\CajaOG_Cara.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        25,
+        15,
+        614,
+        625
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "CajaOG_Cara",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\CajaOG_Cara.png"
+    },
+    {
+      "index": 25,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch3\\Flecha_Arriba.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        15,
+        33,
+        625,
+        607
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Flecha_Arriba",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Flecha_Arriba.png"
+    },
+    {
+      "index": 26,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch3\\Flecha_Derecha.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        15,
+        27,
+        625,
+        613
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Flecha_Derecha",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Flecha_Derecha.png"
+    },
+    {
+      "index": 27,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch3\\Flecha_Izquierda.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        15,
+        26,
+        625,
+        614
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Flecha_Izquierda",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Flecha_Izquierda.png"
+    },
+    {
+      "index": 28,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch3\\Mural_Antiguo.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        15,
+        26,
+        625,
+        613
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Mural_Antiguo",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Mural_Antiguo.png"
+    },
+    {
+      "index": 29,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\batch3\\PuenteCerrado.png",
+      "size": [
+        640,
+        640
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        15,
+        34,
+        625,
+        605
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "PuenteCerrado",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\PuenteCerrado.png"
+    },
+    {
+      "index": 30,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\ChatGPT Image Nov 15, 2026, 06_26_24 AM-4.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        0,
+        3,
+        1228,
+        1224
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Moneda_4K",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Moneda_4K.png"
+    },
+    {
+      "index": 31,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\ChatGPT Image Nov 15, 2026, 06_26_14 AM-1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        0,
+        0,
+        1212,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Flecha_Abajo",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Flecha_Abajo.png"
+    },
+    {
+      "index": 32,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\ChatGPT Image Nov 15, 2026, 06_26_21 AM-3.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        33,
+        0,
+        1236,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Hibrido_Traccion",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Hibrido_Traccion.png"
+    },
+    {
+      "index": 33,
+      "path": "C:\\Users\\emili\\Documents\\Codex\\2026-11-13\\referenced-chatgpt-conversation-this-is-an\\work\\sign_replacement\\ChatGPT Image Nov 15, 2026, 06_26_18 AM-2.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "bbox": [
+        0,
+        0,
+        1241,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "key": "Hibrido_Rebote",
+      "source": "C:\\Users\\emili\\Documents\\Codex\\OneMoreCast2\\EpicMegaJam_2026\\SourceArt\\Signage\\Hibrido_Rebote.png"
+    }
+  ],
+  "placements": [
+    {
+      "actor": "BO_Caja_OG",
+      "key": "CajaOG_Cara",
+      "aspect": 1.0
+    },
+    {
+      "actor": "BO_Caja_Comercial",
+      "key": "CajaComercial_Cara",
+      "aspect": 1.0
+    },
+    {
+      "actor": "BO_Anuncio_Faro",
+      "key": "Valla_RemakeUltraHD",
+      "aspect": 1.8
+    },
+    {
+      "actor": "BO_Anuncio_Muelle_1",
+      "key": "Poster_Sale",
+      "aspect": 2.0
+    },
+    {
+      "actor": "BO_Anuncio_Muelle_2",
+      "key": "Poster_Hot",
+      "aspect": 1.6
+    },
+    {
+      "actor": "BO_Anuncio_Patio_1",
+      "key": "Poster_4K",
+      "aspect": 1.3333333333333333
+    },
+    {
+      "actor": "BO_Anuncio_Patio_2",
+      "key": "Poster_Vip",
+      "aspect": 1.6
+    },
+    {
+      "actor": "BO_Anuncio_Corredor_S_0",
+      "key": "Valla_MegaOferta",
+      "aspect": 1.4
+    },
+    {
+      "actor": "BO_Anuncio_Corredor_N_0",
+      "key": "Poster_Ya",
+      "aspect": 1.2
+    },
+    {
+      "actor": "BO_Anuncio_Corredor_S_1",
+      "key": "Poster_Menos80",
+      "aspect": 1.4
+    },
+    {
+      "actor": "BO_Anuncio_Corredor_N_1",
+      "key": "Poster_New",
+      "aspect": 1.2
+    },
+    {
+      "actor": "BO_Anuncio_Corredor_S_2",
+      "key": "Poster_Top",
+      "aspect": 1.4
+    },
+    {
+      "actor": "BO_Anuncio_Corredor_N_2",
+      "key": "Valla_MegaOferta",
+      "aspect": 1.2
+    },
+    {
+      "actor": "BO_Anuncio_Corredor_S_3",
+      "key": "Poster_MasXP",
+      "aspect": 1.4
+    },
+    {
+      "actor": "BO_Anuncio_Corredor_N_3",
+      "key": "Poster_Dlc",
+      "aspect": 1.2
+    },
+    {
+      "actor": "BO_Caja_Anuncio_Alt",
+      "key": "CajaComercial_Cara",
+      "aspect": 1.0
+    },
+    {
+      "actor": "BO_Valla_Publicitaria",
+      "key": "Valla_RemakeUltraHD",
+      "aspect": 2.0
+    },
+    {
+      "actor": "BO_Mural",
+      "key": "Mural_Antiguo",
+      "aspect": 1.1428571428571428
+    },
+    {
+      "actor": "BO_Cinta_Obra_A",
+      "key": "Barrera_Precaucion",
+      "aspect": 26.666666666666668
+    },
+    {
+      "actor": "BO_Cinta_Obra_B",
+      "key": "Barrera_Precaucion",
+      "aspect": 26.666666666666668
+    },
+    {
+      "actor": "BO_Anuncio_Orilla_A",
+      "key": "Poster_Sale",
+      "aspect": 1.2
+    },
+    {
+      "actor": "BO_Anuncio_Orilla_B",
+      "key": "Poster_Hot",
+      "aspect": 1.2
+    },
+    {
+      "actor": "BO_Logo_Estudio",
+      "key": "Banda_PresentacionExclusiva",
+      "aspect": 4.0
+    },
+    {
+      "actor": "BO_Mural_Final",
+      "key": "Mural_Antiguo",
+      "aspect": 4.0
+    },
+    {
+      "actor": "BO_Senal_Zona_0",
+      "key": "Zona_0",
+      "aspect": 4.0
+    },
+    {
+      "actor": "BO_Senal_Zona_1",
+      "key": "Zona_1",
+      "aspect": 4.0
+    },
+    {
+      "actor": "BO_Senal_Zona_2",
+      "key": "Zona_2",
+      "aspect": 4.0
+    },
+    {
+      "actor": "BO_Senal_Zona_3",
+      "key": "Zona_3",
+      "aspect": 4.0
+    },
+    {
+      "actor": "BO_Senal_Zona_4",
+      "key": "Zona_4",
+      "aspect": 4.0
+    },
+    {
+      "actor": "BO_Senal_Zona_5",
+      "key": "Zona_5",
+      "aspect": 4.0
+    },
+    {
+      "actor": "BO_Senal_PuenteCerrado",
+      "key": "PuenteCerrado",
+      "aspect": 1.0
+    },
+    {
+      "actor": "BO_Senal_Flecha_Corredor",
+      "key": "Flecha_Derecha",
+      "aspect": 1.0
+    },
+    {
+      "actor": "BO_Senal_Flecha_Pasarela",
+      "key": "Flecha_Izquierda",
+      "aspect": 1.0
+    },
+    {
+      "actor": "TLP_Puerta_Escenario_Este",
+      "key": "Banda_PresentacionExclusiva",
+      "aspect": 1.075
+    },
+    {
+      "actor": "TLP_Puerta_Escenario_Oeste",
+      "key": "Banda_PresentacionExclusiva",
+      "aspect": 1.075
+    },
+    {
+      "actor": "BO_Ascensor_Marca",
+      "key": "Cartel_AccesoVIP",
+      "aspect": 10.0
+    },
+    {
+      "actor": "BO_Grua_Marca",
+      "key": "Banda_Nuevo"
+    },
+    {
+      "actor": "DEC_BO_Banderola_Muelle_Arte",
+      "key": "Banderolas"
+    },
+    {
+      "actor": "DEC_BO_Banderola_OrillaB_Arte",
+      "key": "Banderolas"
+    },
+    {
+      "actor": "DEC_BO_Banderola_OrillaA_Arte",
+      "key": "Banderolas"
+    },
+    {
+      "actor": "DEC_Senal_Rebote",
+      "key": "Hibrido_Rebote"
+    },
+    {
+      "actor": "DEC_Senal_Traccion",
+      "key": "Hibrido_Traccion"
+    },
+    {
+      "actor": "DEC_Senal_Subir",
+      "key": "Flecha_Arriba"
+    },
+    {
+      "actor": "DEC_Senal_Bajar",
+      "key": "Flecha_Abajo"
+    },
+    {
+      "actor": "DEC_Insignia_4K",
+      "key": "Moneda_4K"
+    }
+  ]
+}
