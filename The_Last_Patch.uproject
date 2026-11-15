@@ -1,19 +1,27 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "{247147D0-4DEC-98C4-BFE7-A28104278537}",
-	"Category": "",
-	"Description": "",
-	"Plugins": [
-		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "GameplayStateTree",
-			"Enabled": true
-		}
-	]
+  "FileVersion": 3,
+  "EngineAssociation": "{247147D0-4DEC-98C4-BFE7-A28104278537}",
+  "Category": "",
+  "Description": "",
+  "Plugins": [
+    {
+      "Name": "ModelingToolsEditorMode",
+      "Enabled": true,
+      "TargetAllowList": [
+        "Editor"
+      ]
+    },
+    {
+      "Name": "GameplayStateTree",
+      "Enabled": true
+    },
+    {
+      "Name": "ModelContextProtocol",
+      "Enabled": true
+    },
+    {
+      "Name": "AllToolsets",
+      "Enabled": true
+    }
+  ]
 }
